@@ -1,0 +1,134 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+
+  --font-family: 'Inter' sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-samibold: 600;
+  --font-weight-bold: 700;
+  --font-size-body: 14px;
+}
+
+body {
+  background-color: var(--grey-900);
+  color: var(--white);
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Profile card */
+article {
+  background-color: var(--grey-800);
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 384px;
+  max-height: 610px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 1.5em;
+  color: var(--white);
+  font-weight: var(--font-weight-samibold);
+  letter-spacing: 0.012em;
+}
+
+.location {
+  font-size: var(--font-size-paragraph);
+  color: var(--green);
+  font-weight: var(--font-weight-samibold);
+  margin-top: 0.4em;
+}
+
+.description {
+  color: var(--white);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-paragraph);
+  margin-top: 1.8em;
+}
+
+/* Links section */
+.links ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.links li {
+  margin-bottom: 1rem;
+}
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.75rem;
+  width: 100%;
+  background-color: var(--grey-700);
+  border-radius: 10px;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 375px) {
+  main {
+    max-width: 300px;
+    padding: 1.5rem;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .links a {
+    font-size: 1rem;
+    padding: 0.65rem;
+  }
+}
