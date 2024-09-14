@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/pierrettemugisha/fm-social-links-profile)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/pierrettemugisha/fm-social-links-profile)
+- Live Site URL: [Live site URL](https://fm-social-links-profile-lilac.vercel.app)
 
 ## My process
 
@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Github - [Github Profile](https://github.com/pierrettemugisha/)
+- Github - [Github Profile](https://github.com/pierrettemugisha)
 - Frontend Mentor - [@pierrettemugisha](https://www.frontendmentor.io/profile/pierrettemugisha)
